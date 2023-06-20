@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">SpidermanAppofc</string>
+    <string name="txtnomeapp">Ajude o Homem Aranha a salvar o Meio Ambiente!</string>
+    <string name="b1">brinquedo1</string>
+    <string name="b2">brinquedo2</string>
+    <string name="b3">brinquedo3</string>
+    <string name="b4">brinquedo4</string>
+    <string name="btninicio">COMEÇAR</string>
+    <string name="btnnext">PROXIMO</string>
+      <string name="btnfim">FIM</string>
+    <string name="btnvoltamenu">MENU</string>
+    <string name="btnvoltainicio">INÍCIO</string>
+    <string name="txtvb1">BRINQUEDO</string>
+    <string name="txtparabens">PARABÉNS !</string>
+    <string name="txtemenu">MENU</string>
+    <string name="txtve">1) AVIÃO
+Materiais:
+- Prendedor de roupa.
+- 3 Palitos de sorvete.
+- Cola.
+- Tintas para a decoração.
+Tutorial:
+1. Cole 2 palitos de sorvete na ponta em que se abre o prendedor, para simular
+as asas.
+2. Cole o último palito na outra ponta.
+3. Solte a criatividade e decore seu avião!
+</string>
+    <string name="sm">Spiderman</string>
+    <string name="ex1">EXPLICAÇÃO 2</string>
+    <string name="ex2">EXPLICAÇÃO 3</string>
+</resources>
