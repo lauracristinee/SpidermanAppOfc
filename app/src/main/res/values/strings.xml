@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">SpidermanAppofc</string>
-    <string name="txtnomeapp">Ajude o Homem Aranha a salvar o Meio Ambiente!</string>
+    <string name="txtnomeapp2">Ajude o Homem Aranha a salvar o Meio Ambiente!</string>
     <string name="b1">brinquedo1</string>
     <string name="b2">brinquedo2</string>
     <string name="b3">brinquedo3</string>
@@ -11,6 +11,7 @@
     <string name="btnvoltamenu">MENU</string>
     <string name="btnvoltainicio">INÍCIO</string>
     <string name="txtvb1">BRINQUEDO</string>
+    <string name="txtnomeapp1">SpiderBRINQUEDOS</string>
     <string name="txtparabens">PARABÉNS !</string>
     <string name="txtemenu">MENU</string>
     <string name="txtve">1) AVIÃO

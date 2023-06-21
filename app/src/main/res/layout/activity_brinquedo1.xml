@@ -72,7 +72,26 @@
         app:layout_constraintHorizontal_bias="0.03"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtvb"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="@string/txtve" />
+
+    <ImageView
+        android:id="@+id/brinquedo1img"
+        android:layout_width="281dp"
+        android:layout_height="452dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toEndOf="@+id/txtex"
+        app:layout_constraintTop_toBottomOf="@+id/txtvb"
+        app:srcCompat="@drawable/brinquedo1img" />
+
+    <ImageView
+        android:id="@+id/fala1img"
+        android:layout_width="212dp"
+        android:layout_height="481dp"
+        app:srcCompat="@drawable/fala1img"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="199dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
