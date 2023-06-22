@@ -8,25 +8,12 @@
     android:background="@drawable/miranhafundo2"
     tools:context=".brinquedo2">
 
-    <ImageView
-        android:id="@+id/imgsm2"
-        android:layout_width="226dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginEnd="32dp"
-        android:contentDescription="@string/sm"
-        app:layout_constraintEnd_toStartOf="@+id/btnnext"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtvb"
-        app:srcCompat="@drawable/miranha2" />
-
     <Button
-        android:id="@+id/btnnext"
+        android:id="@+id/btnnext4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="20dp"
         android:width="125dp"
         android:backgroundTint="@color/black"
@@ -36,7 +23,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
+        app:layout_constraintVertical_bias="0.888" />
+
+    <ImageView
+        android:id="@+id/imgsm2"
+        android:layout_width="226dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="320dp"
+        android:contentDescription="@string/sm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvb"
+        app:srcCompat="@drawable/miranha2" />
 
     <TextView
         android:id="@+id/txtvb"
@@ -55,33 +52,38 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtex"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txtex2"
+        android:layout_width="411dp"
+        android:layout_height="195dp"
         android:layout_marginStart="37dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="316dp"
-        android:text="@string/txtve"
+        android:text="@string/txtex2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/txtve" />
-
-    <ImageView
-        android:id="@+id/fala2img"
-        android:layout_width="257dp"
-        android:layout_height="454dp"
-        app:srcCompat="@drawable/fala2img"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:text="@string/txtex2" />
 
     <ImageView
         android:id="@+id/brinquedo2img"
-        android:layout_width="218dp"
-        android:layout_height="463dp"
-        app:srcCompat="@drawable/brinquedo2img"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="29dp" />
+        android:layout_width="254dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnnext4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/brinquedo2img" />
+
+    <ImageView
+        android:id="@+id/fala2img"
+        android:layout_width="240dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toStartOf="@+id/brinquedo2img"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtex2"
+        app:srcCompat="@drawable/fala2img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

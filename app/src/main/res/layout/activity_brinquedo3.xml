@@ -8,19 +8,6 @@
     android:background="@drawable/miranhafundo2"
     tools:context=".brinquedo2">
 
-    <ImageView
-        android:id="@+id/imgsm3"
-        android:layout_width="226dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="320dp"
-        android:layout_marginEnd="32dp"
-        android:contentDescription="@string/sm"
-        app:layout_constraintEnd_toStartOf="@+id/btnnext"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtvb"
-        app:srcCompat="@drawable/miranha2" />
-
     <Button
         android:id="@+id/btnnext"
         android:layout_width="wrap_content"
@@ -55,33 +42,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtex"
+        android:id="@+id/txtex2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="37dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="316dp"
-        android:text="@string/txtve"
+        android:text="@string/txtex3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/txtve" />
-
-    <ImageView
-        android:id="@+id/fala3img"
-        android:layout_width="230dp"
-        android:layout_height="481dp"
-        app:srcCompat="@drawable/fala3img"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="219dp" />
+        tools:text="@string/txtex3" />
 
     <ImageView
         android:id="@+id/brinquedo3img"
-        android:layout_width="277dp"
-        android:layout_height="468dp"
-        app:srcCompat="@drawable/brinquedo3img"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="35dp" />
+        android:layout_width="174dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="357dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnnext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvb"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/brinquedo3img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
